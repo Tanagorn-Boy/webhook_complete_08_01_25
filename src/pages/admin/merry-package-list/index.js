@@ -42,7 +42,7 @@ function MerryPackageList() {
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value); // อัปเดตคำค้นหาใน state
   };
-
+  // test
   // Filter packages based on search query
   const filteredPackages = packages.filter(
     (pkg) => pkg.name_package.toLowerCase().includes(searchQuery.toLowerCase()), // กรองชื่อแพ็กเกจตาม searchQuery

@@ -235,7 +235,7 @@ export default async function handler(req, res) {
         sig,
         endpointSecret,
       );
-
+      //
       if (event.type === "payment_intent.succeeded") {
         await handleEvent(event);
       } else {
